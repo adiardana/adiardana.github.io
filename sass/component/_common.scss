@@ -1,0 +1,123 @@
+*{
+	@include prefix-it(box-sizing, border-box);
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+body{
+	font: 300 125%/150% sans-serif;
+}
+
+.browser-error-class{
+	p{
+		text-align: center;
+		background:{
+			color: red;
+		}
+		color: white;
+		a{
+			color: white;
+			text:{
+				decoration: underline;
+			}
+		}
+	}
+}
+
+#imagelightbox{
+    position: fixed;
+    z-index: 9999;
+}
+#imagelightbox-overlay{
+	background:{
+		color: rgba(255,255,255,.9);
+	}
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+}
+
+.sidebg{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 25%;
+	z-index: 1;
+	background:{
+		color: #333;
+	}
+}
+.sidebar{
+	position: fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width: 25%;
+	z-index: 9999;
+	color: #fff;
+	.head{
+		@include centerer;
+		.me{
+			text-align: center;
+			margin-bottom: 10px;
+			img{
+				@include radius(50%);
+				@include prefix-it(transition, all 300ms ease-in-out);
+				cursor: pointer;
+				border: 2px solid transparent;
+				width: 50%;
+				height: 50%;
+				&:hover{
+					border: 5px solid #fff;
+				}
+			}
+		}
+	}
+}
+
+.social{
+	ul{
+		list-style: none;
+		text-align: center;
+		li{
+			display: inline-block;
+			margin: 5px;
+			a{
+				svg{
+					path{
+						@include prefix-it(transition, all 300ms ease-in-out);
+					}
+				}
+			}
+			.fb{
+				&:hover{
+					svg{
+						path{
+							fill: #3b5998;
+						}
+					}
+				}
+			}
+			.tw{
+				&:hover{
+					svg{
+						path{
+							fill: #00aced;
+						}
+					}
+				}
+			}
+			.mail{
+				&:hover{
+					svg{
+						path{
+							fill: #999999;
+						}
+					}
+				}
+			}
+		}
+	}
+}
