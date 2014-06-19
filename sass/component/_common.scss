@@ -24,6 +24,18 @@ body{
 	}
 }
 
+.scroll-top{
+	.go-top{
+		opacity: 0;
+		position: fixed;
+		cursor: pointer;
+		bottom: 100px;
+		right: 0;
+		padding: 15px 20px;
+		background-color: lighten(rgba(0,0,0,.8), 50%);
+	}
+}
+
 #imagelightbox{
     position: fixed;
     z-index: 9999;
@@ -34,6 +46,8 @@ body{
 	}
 	position: fixed;
 	z-index: 9999;
+	top:0;
+	left:0;
 	width: 100%;
 	height: 100%;
 }

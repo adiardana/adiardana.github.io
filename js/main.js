@@ -35,4 +35,19 @@ $(function() {
 	$('.ttip').hover(function() {
 		$(this).tooltip('toggle');
 	});
+
+	$('.scroll-top .go-top').click(function(event) {
+		$("html, body").animate({ scrollTop: "0px" });
+	});
+
+	$(window).scroll(function(event) {
+		var top = $(window).scrollTop();
+		console.log(top);
+
+		if(top >= 200){
+			$('.scroll-top .go-top').css('opacity', '1');
+		}else{
+			$('.scroll-top .go-top').css('opacity', '0');
+		}
+	});
 });

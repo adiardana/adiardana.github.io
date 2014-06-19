@@ -4896,6 +4896,15 @@ body {
     color: white;
     text-decoration: underline; }
 
+.scroll-top .go-top {
+  opacity: 0;
+  position: fixed;
+  cursor: pointer;
+  bottom: 100px;
+  right: 0;
+  padding: 15px 20px;
+  background-color: rgba(127, 127, 127, 0.8); }
+
 #imagelightbox {
   position: fixed;
   z-index: 9999; }
@@ -4904,6 +4913,8 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   z-index: 9999;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%; }
 
@@ -5076,19 +5087,36 @@ Simple grid system by adi ardana
 /*
     Tablet
 */
-@media only screen and (max-width: 768px) {
-  .col {
-    margin-left: 0; }
-  .row {
-    margin: 0; }
-  .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12 {
-    width: 100%;
-    margin-bottom: 2%; } }
+@media only screen and (max-width: 768px) { }
 
-/*
-    Mobile
-*/
-@media only screen and (max-width: 480px) { }
+@media screen and (max-width: 450px) { }
+
+@media screen and (min-width: 451px) and (max-width: 700px) { }
+
+@media screen and (max-width: 850px) {
+  .side-content {
+    width: 100%;
+    padding: 0; }
+    .side-content .sidebar {
+      position: relative;
+      width: 100%;
+      height: auto;
+      background-color: #333; }
+      .side-content .sidebar .head {
+        padding: 5px 15px;
+        left: auto;
+        top: auto;
+        position: relative;
+        transform: none; }
+        .side-content .sidebar .head .me img {
+          max-width: 100px;
+          max-height: 100px; }
+        .side-content .sidebar .head .social ul {
+          margin: 0; }
+    .side-content .sidebg {
+      display: none; }
+  .main-content {
+    width: 100%; } }
 
 /*
     Retina Images

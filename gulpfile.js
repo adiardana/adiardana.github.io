@@ -4,7 +4,7 @@ var sass = require('gulp-sass')
 var minify = require('gulp-clean-css');
 
 var paths = {
-	sass: ['sass/*.scss','sass/component/*.scss','sass/bootstrap/*.scss'],
+	sass: ['sass/*.scss','sass/component/*.scss','sass/bootstrap/*.scss','sass/responsive/*.scss'],
 	css: 'css/*.css',
 };
 

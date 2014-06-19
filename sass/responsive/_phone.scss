@@ -1,6 +1,48 @@
-/*
-    Mobile
-*/
-@media only screen and (max-width: 480px) {
-	
+
+@media screen and (max-width: 450px) {
+
+}
+
+@media screen and (min-width: 451px) and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 850px) {
+	.side-content{
+		width: 100%;
+		padding: 0;
+	    .sidebar{
+	    	position: relative;
+	    	width: 100%;
+	    	height: auto;
+	    	background:{
+				color: #333;
+			}
+			.head{
+				padding: 5px 15px;
+				left: auto;
+				top: auto;
+				position: relative;
+				transform: none;
+				.me{
+					img{
+						max-width: 100px;
+						max-height: 100px;
+					}
+				}
+				.social{
+					ul{
+						margin: 0;
+					}
+				}
+			}
+	    }
+	    .sidebg{
+	    	display: none;
+	    }
+	}
+    .main-content{
+    	width: 100%;
+    	// margin-top: 190px;
+    }
 }
