@@ -7,6 +7,8 @@ Open Source Project
 
 Portfolio
 
+ * 2016
+     - Madpops Bali ( WordPress ) - [link](http://madpopsbali.com/)
  * 2015
      - Kin Dog Food ( WordPress ) - [link](http://kindogfood.com/)
      - Australia India Institute ( Drupal ) - [link](http://www.aii.unimelb.edu.au/)
