@@ -8,6 +8,7 @@ Open Source Project
 Portfolio
 
  * 2016
+     - Perth Auto Electrical Group ( Wordpress ) - [link](http://www.paeg.com.au/)
      - Madpops Bali ( WordPress ) - [link](http://madpopsbali.com/)
  * 2015
      - Kin Dog Food ( WordPress ) - [link](http://kindogfood.com/)
