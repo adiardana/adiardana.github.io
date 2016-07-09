@@ -8,6 +8,8 @@ Open Source Project
 Portfolio
 
  * 2016
+     - Bali Dirt Bikes Rental ( Wordpress ) - [link](http://balidirtbikes.com/)
+     - Dynamic Carpet & Tile Cleaning - Perth ( Wordpress ) - [link](http://www.dynamiccarpetandtile.com.au/)
      - Perth Auto Electrical Group ( Wordpress ) - [link](http://www.paeg.com.au/)
      - Madpops Bali ( WordPress ) - [link](http://madpopsbali.com/)
  * 2015
