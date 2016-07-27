@@ -1,38 +1,17 @@
+<span class="separator-50"></span>
 <footer class="site-footer">
+  <section class="container">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+    <div class="footer-content">
+      <span class="separator-15"></span>
+      <ul class="contact-list">
+        <li>{{ site.title }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a> | subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> | copyright &copy; 2016</li>
+      </ul>
+      <span class="separator-15"></span>
     </div>
 
-  </div>
-
+  </section>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="{{ "/js/main.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>

@@ -2,8 +2,41 @@ html {
   box-sizing: border-box;
 }
 
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+.container{
+  @include outer-container;
+  padding: {
+    left: 15px;
+    right: 15px;
+  }
+}
+
+.site-header{
+  .logo{
+    @include span-columns(3);
+  }
+  .main-menu{
+    @include span-columns(9);
+  }
+}
+
+.home-hero{
+  @include span-columns(8);
+  @include shift(2);
+}
+
+.footer-content{
+  @include span-columns(12);
 }

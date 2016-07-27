@@ -17,3 +17,24 @@ dt {
 dd {
   margin: 0;
 }
+
+.site-nav{
+  ul{
+    text-align: right;
+    li{
+      list-style: none;
+      display: inline-block;
+    }
+  }
+}
+
+.page-link{
+  @include transition(all 300ms ease-in-out);
+  padding: 10px 15px;
+  color: #fff;
+  display: block;
+  &:hover{
+    background-color: darken(#fff, 2%);
+    color: $dark-gray;
+  }
+}
