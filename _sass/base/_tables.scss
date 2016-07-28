@@ -3,6 +3,19 @@ table {
   margin: $small-spacing 0;
   table-layout: fixed;
   width: 100%;
+  ul{
+    li{
+      list-style: disc;
+    }
+  }
+}
+
+tr{
+  &:last-of-type{
+    td{
+      border-bottom: 0px;
+    }
+  }
 }
 
 th {
@@ -21,4 +34,10 @@ tr,
 td,
 th {
   vertical-align: middle;
+}
+
+.projects{
+  .year{
+    width: 100px;
+  }
 }

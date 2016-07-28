@@ -119,3 +119,12 @@ figure {
 .separator-50{
   height: 50px;
 }
+
+::selection {
+  background: $dark-gray; /* WebKit/Blink Browsers */
+  color: #fff;
+}
+::-moz-selection {
+  background: $dark-gray; /* Gecko Browsers */
+  color: #fff;
+}

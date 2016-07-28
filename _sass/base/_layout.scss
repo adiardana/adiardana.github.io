@@ -40,3 +40,9 @@ body {
 .footer-content{
   @include span-columns(12);
 }
+
+.home-cv-wrapper{
+  .cv{
+    @include span-columns(6);
+  }
+}

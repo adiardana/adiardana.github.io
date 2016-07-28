@@ -10,13 +10,15 @@ layout: home
   </section>
 </div>
 <span class="separator-50"></span>
+{% include cv.html %}
+<span class="separator-50"></span>
 <div class="portfolio-wrapper">
   <h2>My Latest Works</h2>
   <span class="separator-15"></span>
   <section class="container">
     {% for item in site.categories['featured-portfolio'] %}
     <div class="portfolio-item">
-      <a href="{{ item.url | prepend: site.baseurl }}" title="{{ item.title }}">
+      <a href="{{ item.clienturl }}" target="_blank" title="{{ item.title }}">
         <img src="{{ item.image | prepend: site.baseurl }}" alt="{{ item.title }}">
         <span><h3>{{ item.title }}</h3></span>
       </a>
