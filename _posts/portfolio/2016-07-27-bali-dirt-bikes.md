@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Portfolio 1"
+title:  "Bali Dirt Bikes"
 date:   2016-07-27 08:34:00 +0800
-categories: 
+categories:
 - portfolio
 - featured-portfolio
-image: /image/1.jpg
-clienturl: http://google.com
+image: /image/bdb.jpg
+clienturl: http://balidirtbikes.com/
 ---
 ### Portfolio
 

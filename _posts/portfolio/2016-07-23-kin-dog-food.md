@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Portfolio 2"
-date:   2016-07-26 08:34:00 +0800
-categories: 
+title:  "Kin Dog Food"
+date:   2016-07-25 08:34:00 +0800
+categories:
 - portfolio
 - featured-portfolio
-image: /image/2.jpg
+image: /image/kin.jpg
+clienturl: http://kindogfood.com/
 ---
 ### Portfolio
 

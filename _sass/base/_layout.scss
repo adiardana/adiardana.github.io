@@ -46,3 +46,30 @@ body {
     @include span-columns(6);
   }
 }
+
+@media screen and (max-width: 991px) {
+  .site-header{
+    .logo{
+      @include span-columns(12);
+      a{
+        text-align: center;
+      }
+    }
+    .main-menu{
+      @include span-columns(12);
+      .site-nav ul{
+        text-align: center;
+      }
+    }
+  }
+  .home-cv-wrapper{
+    .cv{
+      @include span-columns(12);
+    }
+  }
+
+  .home-hero{
+    @include span-columns(10);
+    @include shift(1);
+  }
+}
