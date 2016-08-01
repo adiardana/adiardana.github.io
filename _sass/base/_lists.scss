@@ -42,4 +42,8 @@ dd {
     background-color: darken(#fff, 2%);
     color: $dark-gray;
   }
+  &.highlight{
+    background-color: red;
+    color: #fff;
+  }
 }
