@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AJ Kitchens"
+title:  "AJ Kitchens { WordPress }"
 date:   2016-07-25 10:34:00 +0800
 categories:
 - portfolio

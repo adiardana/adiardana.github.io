@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bali Dirt Bikes"
+title:  "Bali Dirt Bikes { WordPress }"
 date:   2016-07-27 08:34:00 +0800
 categories:
 - portfolio
