@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kin Dog Food { WordPress }"
+title:  "Kin Dog Food<hr>{ WordPress }"
 date:   2016-07-25 08:34:00 +0800
 categories:
 - portfolio
