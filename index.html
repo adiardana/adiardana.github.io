@@ -17,9 +17,10 @@ layout: home
   <span class="separator-15"></span>
   <section class="container">
     {% for item in site.categories['featured-portfolio'] %}
+    {% assign title = item.title|replace: '<hr>', ' ' %}
     <div class="portfolio-item">
-      <a href="{{ item.clienturl }}" target="_blank" title="{{ item.title }}">
-        <img src="{{ item.image | prepend: site.baseurl }}" alt="{{ item.title }}">
+      <a href="{{ item.clienturl }}" target="_blank" title="{{ title }}">
+        <img src="{{ item.image | prepend: site.baseurl }}" alt="{{ title }}">
         <span><h3>{{ item.title }}</h3></span>
       </a>
     </div>
