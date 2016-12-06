@@ -1,0 +1,32 @@
+---
+layout: categories
+---
+
+<div class="portfolio-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="separator-50"></div>
+        <h2 class="text-uppercase text-center">My Latest Works</h2>
+        <div class="separator-50"></div>
+      </div>
+    </div>
+    <div class="row">
+      {% for item in site.categories['featured-portfolio'] %}
+      {% assign title = item.title|replace: '<hr>', ' ' %}
+      <div class="portfolio-item col-sm-6 col-md-4">
+        <a href="{{ item.clienturl }}" target="_blank" title="{{ title }}">
+          <img class="img-responsive" src="{{ item.image | prepend: site.baseurl }}" alt="{{ title }}">
+          <span><h3>{{ item.title }}</h3></span>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <div class="separator-30"></div>
+        <a href="/cv/" class="btn btn-secondary">See all my project here</a>
+      </div>
+    </div>
+  </div>
+</div>

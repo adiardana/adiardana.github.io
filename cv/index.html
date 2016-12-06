@@ -1,0 +1,38 @@
+---
+layout: cv
+---
+
+<div class="cv-wrapper">
+  <div class="cv-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 push-sm-1">
+          <div class="separator-30"></div>
+          <div class="row">
+            <div class="col-md-3">
+              <h2 class="text-center cv-profile">
+                <img class="img-responsive rounded-circle" src="{{ site.profile-image }}" alt="{{ site.home-intro }}">
+              </h2>
+            </div>
+            <div class="col-md-9">
+              <p class="lead">{{ site.home-description }}</p>
+              {% include cv/contact.html %}
+            </div>
+          </div>
+          <div class="separator-30"></div>
+        </div>
+      </div>
+      <div class="separator-15"></div>
+      <div class="row">
+        {% include cv/skills.html %}
+      </div>
+      <div class="separator-15"></div>
+    </div>
+  </div>
+  <div class="separator-30"></div>
+  <div class="container">
+    <div class="row">
+      {% include cv/cv.html %}
+    </div>
+  </div>
+</div>

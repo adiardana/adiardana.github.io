@@ -1,19 +1,20 @@
+'use strict';
+
 (function($){
   var $w = $(window),
     $b = $('body'),
-    windowH = $w.outerHeight();
+    header = $('header'),
+    headerH = header.outerHeight(),
+    scrollTop = 0;
 
-  // resize
-  $w.on('resize', function(event) {
-    windowH = $w.outerHeight();
-  });
+  var site = {
 
-  // header home
-  if ( $('.home-hero-wrapper').length > 0 ) {
-    $b.on('click', '#scroll-header', function(event) {
-      event.preventDefault();
-      $b.stop().animate({ scrollTop: windowH }, 500);
-    });
+  };
+
+  if ($b.hasClass('homepage')) {
+    $(window).snowfall({round: true});
   }
+
+  $(document).pjax('a', '#main');
 
 })(jQuery);

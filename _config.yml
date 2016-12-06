@@ -11,9 +11,11 @@ email: adhixz@gmail.com
 description: >
   Wordpress Developer, Full Stack Developer, Bali Developer, PHP Developer, Front End Developer, Experienced Developer
 home-intro: Adi Ardana
+profile-image: /image/me.png
 home-description: >
   Hi, my name is adi, i am a full stack web developer from Bali-Indonesia.
   I am a passionate developer and learner not by chance but by hobby.
+  I am currently working for Ogilvy Digital Bali a.k.a Bullseye as Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adiardana.github.io" # the base hostname & protocol for your site
 twitter_username: adhiardana

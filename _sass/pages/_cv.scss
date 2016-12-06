@@ -1,0 +1,54 @@
+.cv-header{
+  background-color: rgba($main-color, .9);
+  .cv-profile{
+    img{
+      max-width: 150px;
+    }
+  }
+  .display-4{
+    color: $white;
+  }
+  p,h1,h2,h3,h4,h5,h6{
+    color: $white;
+  }
+}
+
+table{
+  &.contact{
+    td,a{
+      color: $white;
+    }
+    td{
+      padding-right: 10px;
+      &:first-of-type{
+        min-width: 150px;
+      }
+    }
+  }
+}
+
+.skill{
+  img{
+    max-width: 50px;
+  }
+}
+
+.projects{
+  width: 100%;
+  tr{
+    border-bottom: 1px solid #eee;
+    &:last-of-type{
+      border-bottom: 0px;
+    }
+  }
+  .year{
+    vertical-align: top;
+    font-weight: bold;
+    padding-right: 30px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}

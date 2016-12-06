@@ -1,0 +1,28 @@
+.separator{
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.separator-15{
+  @extend .separator;
+  height: 15px;
+}
+.separator-30{
+  @extend .separator;
+  height: 30px;
+}
+.separator-50{
+  @extend .separator;
+  height: 50px;
+}
+.separator-75{
+  @extend .separator;
+  height: 75px;
+}
+.img-responsive{
+  max-width: 100%;
+}
