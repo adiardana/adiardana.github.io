@@ -28,8 +28,13 @@ table{
 }
 
 .skill{
+  margin-bottom: 10px;
   img{
     max-width: 50px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 33.33%;
+    float: left;
   }
 }
 
