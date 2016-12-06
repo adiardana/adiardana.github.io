@@ -1,1 +1,9 @@
-@import "home";
+@import
+  "mixins",
+  "global",
+  "partials/header",
+  "partials/footer",
+  "home",
+  "portfolio",
+  "cv"
+;

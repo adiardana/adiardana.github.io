@@ -5,8 +5,7 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "bourbon/bourbon",
-        "neat/neat",
-        "base/base",
-        "pages/index"
+  "pages/variables",
+  "bootstrap4/bootstrap",
+  "pages/index"
 ;

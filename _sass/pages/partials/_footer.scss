@@ -1,0 +1,26 @@
+#loading{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($main-color, .5);
+  display: none;
+}
+
+footer{
+  background-color: $main-color;
+  .contact-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    li{
+      display: block;
+      color: $white;
+      a{
+        color: $white;
+      }
+    }
+  }
+}
