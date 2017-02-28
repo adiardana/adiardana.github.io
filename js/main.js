@@ -11,9 +11,9 @@
 
   };
 
-  if ($b.hasClass('homepage')) {
-    $(window).snowfall({round: true});
-  }
+  // if ($b.hasClass('homepage')) {
+  //   $(window).snowfall({round: true});
+  // }
 
   $(document).pjax('a', '#main');
 
