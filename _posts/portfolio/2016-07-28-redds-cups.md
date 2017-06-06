@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Redds Cups<hr>{ WordPress }"
+title:  "Redds Cups"
 date:   2016-07-28 08:34:00 +0800
 categories:
 - portfolio

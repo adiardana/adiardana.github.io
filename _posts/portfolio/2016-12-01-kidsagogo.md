@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kidsagogo<hr>{ Shopify }"
+title:  "Kidsagogo"
 date:   2016-12-01 08:34:00 +0800
 categories:
 - portfolio
